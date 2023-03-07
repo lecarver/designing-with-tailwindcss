@@ -20,7 +20,7 @@ export default {
       imageAlt: 'Rear view of modern home with pool',
       beds: 3,
       baths: 2,
-      title: "Modern executive home in the heart of historic Los Angeles",
+      title: "Modern executive home in the heart of Historic Los Angelos",
       priceInCents: 190000,
       formattedPrice: "$1,900.00",
       reviewCount: 34,
