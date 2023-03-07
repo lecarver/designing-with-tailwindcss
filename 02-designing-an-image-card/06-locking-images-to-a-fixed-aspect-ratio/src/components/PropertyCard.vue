@@ -1,7 +1,10 @@
 <template>
   <div class="bg-white rounded-lg overflow-hidden border">
     <!-- <div class="h-48 bg-cover bg-center" :style="{backgroundImage: `url('${property.imageUrl}')`}"></div> USED FOR IE11/non-evergreen browser--> 
-    <img class="h-48 w-full object-cover" :src="property.imageUrl" :alt="property.imageAlt">
+    <div class="relative bg-red-500 pb-2/3">
+      <img class="absolute bottom-0 h-full w-full object-cover" :src="property.imageUrl" :alt="property.imageAlt">
+    </div>
+    
     <div class="p-6">
       <div class="flex items-baseline">
         <span class="inline-block bg-teal-200 text-teal-800 text-xs px-2 rounded-full uppercase font-semibold tracking-wide">New</span>
