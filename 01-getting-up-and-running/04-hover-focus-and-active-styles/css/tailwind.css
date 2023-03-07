@@ -2,6 +2,16 @@
 @tailwind components;
 
 .btn {
-    @apply inline-block px-5 py-3 bg-indigo-500 text-white rounded-lg shadow-lg uppercase tracking-wider font-semibold text-sm;
+    @apply inline-block px-5 py-3 bg-indigo-500 text-white rounded-lg uppercase tracking-wider font-semibold text-sm;
 }
+.btn:hover {
+    @apply bg-indigo-500;
+}
+.btn:focus {
+    @apply outline-none shadow-outline;
+}
+.btn:active {
+    @apply bg-indigo-700;
+}
+
 @tailwind utilities;

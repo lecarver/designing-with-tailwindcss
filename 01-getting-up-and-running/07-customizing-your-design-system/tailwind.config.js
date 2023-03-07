@@ -1,6 +1,6 @@
 module.exports = {
   theme: {
-    extend: {
+    extend: { //must include 'extend'  to not overwrite existing tailwind
       colors: {
         'brand-blue': '#1992d4',
       },
